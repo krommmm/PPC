@@ -1,0 +1,53 @@
+/* html {
+	background: #2980b9;
+	background: -webkit-linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
+	background: linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
+	min-width: 400px;
+	text-align: center;
+} */
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+	height: 100vh;
+}
+
+.mains{
+	display:flex;
+}
+
+.PPC{
+	background-color: rgb(69, 136, 236);
+	color: white;
+	padding:10px;
+	border-radius: 5px;
+	margin:10px;
+	cursor:pointer;
+	border:1px solid rgb(69, 136, 236);
+}
+
+.PPC:hover{
+	background-color:white;
+	color: rgb(69, 136, 236);
+}
+
+.duel{
+	display:flex;
+	
+}
+i{
+	margin:20px;
+	font-size:30px;
+}
+
+.winOrLose{
+	margin:15px;
+}
